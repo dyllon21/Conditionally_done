@@ -11,7 +11,7 @@
       }
   }
 
-  const assert = require('assert');
+const assert = require('assert');
 
 
   assert.equal(whichPlatform('Langa'), 'platform 1');
