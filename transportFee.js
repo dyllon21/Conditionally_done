@@ -7,9 +7,9 @@ var transportFee = function(shift) {
         return 'R10'
     }
     else {
-      return 'R0'
+      return 'free'
     }
 };
 assert.equal(transportFee('morningshift'), 'R20');
 assert.equal(transportFee('afternoonshift'), 'R10');
-assert.equal(transportFee('nightshift'), 'R0');
+assert.equal(transportFee('nightshift'), 'free');

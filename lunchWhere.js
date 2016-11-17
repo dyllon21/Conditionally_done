@@ -8,6 +8,8 @@ var lunchWhere = function(bankBalance){
   else {
     return 'Two minute noodles today!';
   }
+
+
 };
 const assert = require('assert');
 assert.equal(lunchWhere(4500), 'Go and get KFC!');

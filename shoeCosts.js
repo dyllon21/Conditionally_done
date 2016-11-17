@@ -8,6 +8,8 @@ var shoeCosts = function(nameBrand) {
     } else {
         return 'free'
     }
+
+
 };
 assert.equal(shoeCosts('Nike'), 'R400');
 assert.equal(shoeCosts('Adidas'), 'R600');

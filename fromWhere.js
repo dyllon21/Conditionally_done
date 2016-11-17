@@ -11,8 +11,6 @@ var fromWhere = function(regNumber) {
     } else {
         return 'Some other place'
     }
-
-
 };
 assert.equal(fromWhere('CY'), 'Bellville');
 assert.equal(fromWhere('CJ'), 'Paarl');
