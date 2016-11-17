@@ -1,15 +1,12 @@
 const assert = require('assert');
 var fromWhere = function(regNumber) {
-    if (regNumber.startsWith('CY')) {
-        return 'Bellville'
-    }
-    if (regNumber.startsWith('CJ')) {
-        return 'Paarl'
-    }
-    if (regNumber.startsWith('CA')) {
-        return 'Cape Town'
-    } else {
-        return 'Some other place'
+  switch(regNumber){
+    case 'CY':
+    return 'Bellville';
+  case 'CJ':
+  return 'Paarl';
+  case 'CA':
+  return 'Cape Town';
     }
 };
 assert.equal(fromWhere('CY'), 'Bellville');
